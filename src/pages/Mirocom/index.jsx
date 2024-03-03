@@ -644,8 +644,7 @@ export default function MirocomPage() {
 
 
 
-           <div>
-           <Heading as="h1" className="mt-[177px] tracking-[-1.00px]">
+              <Heading as="h1" className="mt-[177px] tracking-[-1.00px]">
                 Built for all kinds of teams
               </Heading>
 
@@ -680,7 +679,6 @@ export default function MirocomPage() {
                 </Tab>
               </TabList>
 
-           </div>
 
 
               {[...Array(3)].map((_, index) => (
@@ -921,6 +919,238 @@ export default function MirocomPage() {
 
 
 
+
+
+
+   <div className="hidden sm:block">
+   <div className="flex flex-col w-full mt-10 gap-5 px-2.5 ">
+
+<div className="flex flex-col items-center justify-center w-full sm:w[33%] p-8 shadow-xs rounded-lg">
+<Img
+src="images/img_div_gray_900_61x287.svg"
+alt="image"
+className="h-[61px] w-full mt-[3px] max-w-[287px]"
+/>
+<Text as="p" className="w-[99%] mt-[34px] !text-gray-900_99">
+“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our
+creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration,
+whiteboarding, and retrospectives while remote.”
+</Text>
+<div className="flex flex-row justify-start items-center w-full mt-[51px] mb-[3px] gap-4 max-w-[287px]">
+<Img
+src="images/img_mask_group_1_png.png"
+alt="roxanne_mustafa"
+className="h-12 w-12 rounded-[50%]"
+/>
+<div className="flex flex-col items-start justify-start w-[73%] gap-1">
+<Text size="md" as="p" className="!text-gray-900_99">
+Roxanne Mustafa
+</Text>
+<Text size="md" as="p" className="mb-[7px] !text-gray-900_99">
+Design Team Lead at VMware
+</Text>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div className="flex flex-col items-center justify-start w-full smw-[33%] p-9 shadow-xs rounded-lg">
+  <Img src="images/img_div_61x287.svg" alt="div_one" className="h-[61px] w-full max-w-[287px]" />
+  <Text as="p" className="w-[98%] mt-[18px] !text-gray-900_99">
+    “Miro helps solve one of the major gaps in product design: how to manage tasks across product
+    designers whose projects are in different tools.”
+  </Text>
+  <div className="flex flex-row justify-start items-center w-full mt-[55px] gap-4 max-w-[287px]">
+    <Img src="images/img_jane_docusign_t.png" alt="janedocusignt" className="h-12 w-12 rounded-[50%]" />
+    <div className="flex flex-col items-start justify-start w-full sm:w-[70%] gap-0.5 py-0.5">
+      <Text size="md" as="p" className="!text-gray-900_99">
+        Jane Ashley
+      </Text>
+      <Text size="md" as="p" className="mb-1.5 !text-gray-900_99">
+        Head of Design at DocuSign
+      </Text>
+    </div>
+  </div>
+</div>
+
+
+
+<div className="flex flex-col items-center justify-start w-full sm:w[33%] p-9 shadow-xs rounded-lg">
+  <Img src="images/img_div_1.svg" alt="div_one" className="h-[61px] w-full max-w-[287px]" />
+  <Text as="p" className="w-[99%] mt-[34px] !text-gray-900_99">
+    “As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at
+    the core of what we do and will continue to extend into the future.”
+  </Text>
+  <div className="flex flex-row justify-start items-start w-full mt-[77px] gap-[15px] max-w-[287px]">
+    <Img
+      src="images/img_div_48x45.png"
+      alt="div_three"
+      className="w-[16%] mt-px object-cover rounded-[22px]"
+    />
+    <div className="flex flex-col items-start justify-start w-full sm:w-[79%] gap-3.5">
+      <Text size="md" as="p" className="!text-gray-900_99">
+        Laura Baird
+      </Text>
+      <Text size="md" as="p" className="mb-[9px] !text-gray-900_99">
+        Associate Design Director at frog
+      </Text>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+   </div>
+
+
+
+
+
+
+{/* This is footer section ============== */}
+
+<div className="hidden sm:block">
+      <footer className="flex justify-center items-center w-full mt-[101px] px-4 sm:px-6 lg:px-8 py-[95px] bg-gray-900_01 ">
+      {/* Container for Footer Content */}
+      <div className="flex flex-col justify-center w-full mb-3 mx-auto max-w-[1056px]">
+    
+        {/* Main Footer Section */}
+        <div className="flex flex-col items-center justify-center w-full gap-10 sm:gap-20">
+    
+          {/* First Row: Main Information */}
+          <div className="flex flex-col flex-wrap justify-between items-start w-full">
+    
+            {/* Left Column: Company Information and Social Links */}
+            <div className="flex flex-col items-start justify-start w-full smw-[54%] gap-6">
+    
+              {/* Company Information */}
+              <div className="flex flex-col items-start justify-start w-full smw-[63%]">
+                <Heading size="lg" as="h5" className="!text-white-A700">
+                  Scan. Detect. Remove.
+                </Heading>
+    
+                {/* Social Links */}
+                <div className="flex flex-row justify-start w-full mt-[50px] pb-9 gap-[39px]">
+                  {/* Twitter Icon */}
+                  <div className="flex flex-col items-center justify-start h-9 w-9">
+                    <Img src="images/img_icon_awesome_twitter_square.svg" alt="iconawesome_one" className="h-9 w-9" />
+                  </div>
+    
+                  {/* Facebook Icon */}
+                  <div className="flex flex-col items-center justify-start h-9 w-9">
+                    <Img src="images/img_icon_awesome_facebook_square.svg" alt="iconawesome" className="h-9 w-9" />
+                  </div>
+    
+                  {/* Custom Button with Icon */}
+                  <Button color="white_A700" size="sm" shape="square" className="w-9">
+                    <Img src="images/img_exclusion_8.svg" />
+                  </Button>
+                </div>
+    
+                {/* Additional Links */}
+                <div className="flex flex-row justify-start w-full sm:w[97%] mt-3 gap-[25px] py-1.5">
+                  {/* Privacy Policy Link */}
+                  <div className="flex flex-row justify-start w[22%] mb-[5px]">
+                    <a href="#">
+                      <Text size="xs" as="p" className="!text-white-A700 !font-inter underline">
+                        Privacy Policy
+                      </Text>
+                    </a>
+                  </div>
+    
+                  {/* Terms of Service Link */}
+                  <div className="flex flex-row justify-start w[27%]">
+                    <a href="#">
+                      <Text size="xs" as="p" className="!text-white-A700 !font-inter underline">
+                        Terms of Service
+                      </Text>
+                    </a>
+                  </div>
+                </div>
+    
+                {/* Copyright Text */}
+                <Text size="xs" as="p" className="w-full mt-9 !text-white-A700 !font-inter !leading-[15px]">
+                  Copyright © 2022 Certo Software Limited | Registered in England & Wales No. 10072356
+                </Text>
+    
+                {/* Designed & Developed By */}
+                <Text size="xs" as="p" className="mt-5 !text-white-A700 !font-inter">
+                  <span className="text-white-A700">Designed & developed by </span>
+                  <a href="#" className="text-white-A700 underline">
+                    Bigger Picture
+                  </a>
+                </Text>
+              </div>
+    
+              {/* Right Column: Miro Information */}
+              <div className="flex flex-col items-start justify-start w-full smw-[34%] gap-[60px]">
+                <Heading size="2xl" as="h2" className="pt-px pb-[26px] pr-[35px] !text-white-A700 border-white-A700 border-b border-solid">
+                  Miro.
+                </Heading>
+    
+                {/* Miro Links */}
+                <div className="flex flex-col items-start justify-start w-full gap-[25px]">
+                  {/* Miro Categories */}
+                  <div className="flex flex-row justify-start items-center gap-6">
+                    <Img src="images/img_span.svg" alt="span_three" className="h-5 w-5" />
+                    <Heading size="s" as="h6" className="!text-orange-300 tracking-[-0.40px]">
+                      iPhone
+                    </Heading>
+                  </div>
+                  <div className="flex flex-row justify-start items-center gap-6">
+                    <Img src="images/img_span.svg" alt="span_five" className="h-5 w-5" />
+                    <Heading size="s" as="h6" className="!text-orange-300 tracking-[-0.40px]">
+                      Android
+                    </Heading>
+                  </div>
+                  <div className="flex flex-row justify-start items-center gap-6">
+                    <Img src="images/img_span.svg" alt="span_seven" className="h-5 w-5" />
+                    <Heading size="s" as="h6" className="!text-orange-300 tracking-[-0.40px]">
+                      Help
+                    </Heading>
+                  </div>
+                  <div className="flex flex-row justify-start items-center gap-6">
+                    <Img src="images/img_span.svg" alt="span_nine" className="h-5 w-5" />
+                    <Heading size="s" as="h6" className="!text-orange-300 tracking-[-0.40px]">
+                      About
+                    </Heading>
+                  </div>
+                  <div className="flex flex-row justify-start items-center gap-6">
+                    <Img src="images/img_span.svg" alt="span_eleven" className="h-5 w-5" />
+                    <Heading size="xs" as="h6" className="mt-0.5 !text-orange-300 tracking-[-0.40px]">
+                      Insights
+                    </Heading>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            {/* Newsletter Subscription Section */}
+            <div className="h[232px] w-[full] smw-[436px] bg-orange-300 relative rounded-[42px]">
+              {/* Rest of the code remains unchanged */}
+            </div>
+          </div>
+    
+          {/* Additional Text */}
+          <Text size="s" as="p" className="w-full !text-white-A700 !font-inter">
+            Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.
+          </Text>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+        <Footer/>
 
 
 
