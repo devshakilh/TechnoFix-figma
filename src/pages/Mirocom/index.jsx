@@ -20,14 +20,10 @@ export default function MirocomPage() {
         <meta name="description" content="Web site created using create-react-app with shakil" />
       </Helmet>
 
-
-
       <div className="flex flex-col items-center justify-start w-full bg-white-A700">
 
 
-
-
-    
+   
 <Header/>
   
    
@@ -35,7 +31,6 @@ export default function MirocomPage() {
       <div className="hidden sm:block">
 <HeaderMobile/>
 </div>
-
 
 
 
@@ -93,18 +88,18 @@ export default function MirocomPage() {
 
 
 
-
+{/* mobile device  */}
     <div className="hidden sm:block">
-<div className="flex flex-col smflex-row justify-between items-center w-full max-w-[1140px]">
+<div className="flex flex-col  justify-between items-center w-full max-w-[1140px]">
   {/* Left Section: Text Content */}
-  <div className="flex flex-col items-start justify-start w-full smw[39%] pb-6">
+  <div className="flex flex-col items-start justify-start w-full  pb-6">
     {/* Main Heading */}
-    <Heading as="h1" className="w-full sm-86%] tracking-[-1.00px]">
+    <Heading as="h1" className="w-full  tracking-[-1.00px]">
       Take ideas from better to best
     </Heading>
 
     {/* Subheading */}
-    <Text as="p" className="w-full smw-[98%] mt-4 !text-gray-900_b7">
+    <Text as="p" className="w-full  mt-4 !text-gray-900_b7">
       Miro is your team&#39;s visual platform to connect, collaborate, and create — together.
     </Text>
 
@@ -122,9 +117,9 @@ export default function MirocomPage() {
     </Text>
 
     {/* Review Section */}
-    <div className="flex flex-col smflex-row justify-center w-full sm:w-4/5 mt-[41px] p-3.5 bg-gray-100 rounded-lg">
+    <div className="flex flex-col  justify-center w-full sm:w-4/5 mt-[41px] p-3.5 bg-gray-100 rounded-lg">
       {/* Review Text and Image */}
-      <div className="flex flex-col items-start justify-start smw[43%] gap-0.5">
+      <div className="flex flex-col items-start justify-start  gap-0.5">
         <Img src="images/img_div.svg" alt="div_one" className="h-[15px]" />
         <Text size="xs" as="p">
           Based on 5149+ reviews:
@@ -140,7 +135,7 @@ export default function MirocomPage() {
   <Img
     src="images/img_headerimage_without_text_png.png"
     alt="headerimage_one"
-    className="w-full smw-[57%] object-cover"
+    className="w-full  object-cover"
   />
 </div>
 
@@ -196,6 +191,9 @@ export default function MirocomPage() {
       </div>
 
 
+
+
+{/* mobile device */}
 <div className="hidden sm:block">
 <div className="h-[351px] w-full sm:w-[46%] relative">
   <Img
@@ -431,27 +429,29 @@ export default function MirocomPage() {
                 </div>
               </div>
 
+
+
 <div className="hidden sm:block">
-<div className="flex flex-col mdflex-row justify-between items-center w-full mt-[119px] pl-2.5">
-  <Img src="images/img_m3_integrations.png" alt="m3integrations" className="w-full mdw-[49%] object-cover mb-12" />
-  <div className="flex flex-col items-start justify-start w-full mdw-[42%]">
-    <Heading as="h1" className="w3/4 tracking-[-1.00px]">
+<div className="flex flex-col  justify-between items-center w-full mt-[119px] pl-2.5">
+  <Img src="images/img_m3_integrations.png" alt="m3integrations" className="w-full  object-cover mb-12" />
+  <div className="flex flex-col items-start justify-start w-full ">
+    <Heading as="h1" className=" tracking-[-1.00px]">
       Connect <br />
       your tools, <br />
       close your tabs
     </Heading>
-    <Text as="p" className="w-full mdw[99%] mt-7 !text-gray-900_99 !font-inter">
+    <Text as="p" className="w-full  mt-7 !text-gray-900_99 !font-inter">
       Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom, Miro has
       100+ integrations with tools you already use and love.
     </Text>
-    <div className="flex flex-row justify-start items-center w-full mdw-[28%] mt-[52px] gap-[5px]">
+    <div className="flex flex-row justify-start items-center w-full  mt-[52px] gap-[5px]">
       <Text
         as="p"
         className="pr-[7px] py-px !text-indigo-A400 !font-inter border-indigo-A400 border-b border-solid"
       >
         Learn more
       </Text>
-      <div className="flex flex-col items-center justify-start w-full mdw-[15%]">
+      <div className="flex flex-col items-center justify-start w-full ">
         <Text as="p" className="!text-indigo-A400 !font-inter">
           →
         </Text>
@@ -554,14 +554,14 @@ export default function MirocomPage() {
   <Text
     size="md"
     as="p"
-    className="flex justify-center items-center w[137px] smw-auto h-12 pl-[18px] pr-8 py-[15px] border-gray-100_02 border border-solid bg-gray-100_01 rounded-[24px]"
+    className="flex justify-center items-center  h-12 pl-[18px] pr-8 py-[15px] border-gray-100_02 border border-solid bg-gray-100_01 rounded-[24px]"
   >
     Brainstorming
   </Text>
   <Text
     size="md"
     as="p"
-    className="pl-[58px]  py[15px] border-gray-100_02 border border-solid rounded-[24px]"
+    className="pl-[58px]   border-gray-100_02 border border-solid rounded-[24px]"
   >
     Diagramming
   </Text>
@@ -572,10 +572,10 @@ export default function MirocomPage() {
     placeholder="Meetings & Workshops"
     className="w-full smw-[19%] my-5"
   />
-  <Button color="gray_100_02" variant="outline" className="minw-[133px]">
+  <Button color="gray_100_02" variant="outline" className="">
     Scrum Events
   </Button>
-  <Button color="gray_100_02" variant="outline" className="minw-[97px]">
+  <Button color="gray_100_02" variant="outline" className="">
     Mapping
   </Button>
   <Text
@@ -585,7 +585,7 @@ export default function MirocomPage() {
   >
     Research & Design
   </Text>
-  <Button color="gray_100_02" variant="outline" className="minw-[145px]">
+  <Button color="gray_100_02" variant="outline" className="">
     Strategic Planning
   </Button>
 </div>
@@ -619,8 +619,8 @@ export default function MirocomPage() {
 
 
 <div className="hidden sm:block">
-<div className="flex flex-col smflex-row justify-start items-start w-full mt-[26px] pl-4 gap-[4] maxw-[1060px]">
-  <div className="flex flex-row justify-start w-full sm:w[29%] mt-[33px]">
+<div className="flex flex-col  justify-start items-start w-full mt-[26px] pl-4 gap-[4] ">
+  <div className="flex flex-row justify-start w-full  mt-[33px]">
     <div className="flex flex-col items-start justify-start w-full gap-[4] sm:gap-[30px]">
       <Text as="p">Brainstorming</Text>
       <Text as="p" className="!text-gray-900_b2">
@@ -631,7 +631,7 @@ export default function MirocomPage() {
       </Text>
     </div>
   </div>
-  <div className="flex flex-col justify-start w-full smw-[68%]">
+  <div className="flex flex-col justify-start w-full ">
     <Img
       src="images/img_brainstormwithoutshadow_jpg.png"
       alt="brainstormwitho"
@@ -731,7 +731,7 @@ export default function MirocomPage() {
 
 
 <div className="hidden sm:block"> 
-<TabList className="flex flex-col smflex-row justify-between items-center w-full sm:w[81%] mt-[31px] gap-4 sm:gap-14 p-3.5">
+<TabList className="flex flex-col  justify-between items-center w-full  mt-[31px] gap-4 sm:gap-14 p-3.5">
   <Tab className="flex flex-row justify-between w-full sm:w-auto ml-[3px]">
     <Text size="md" as="p">
       UX & Design
@@ -772,8 +772,8 @@ export default function MirocomPage() {
 
 
 {[...Array(3)].map((_, index) => (
-  <TabPanel key={`tab-panel${index}`} className="justify-center w-full smw-[93%] absolute hidden sm:block">
-    <div className="flex flex-col justify-center w-full smw-[93%] mt-[26px]">
+  <TabPanel key={`tab-panel${index}`} className="justify-center w-full  absolute hidden sm:block">
+    <div className="flex flex-col justify-center w-full  mt-[26px]">
 
       <div className="flex flex-col justify-center w-full">
         <div className="flex flex-col items-start justify-start w-full s:w-[34%] p-3">
@@ -805,7 +805,7 @@ export default function MirocomPage() {
             <Img src="images/img_div_gray_900_02.png" alt="div_nine" className="w-full sm:w-[94%] object-cover" />
           </div>
         </div>
-        <div className="flex flex-row justify-center w-full smw-[67%]">
+        <div className="flex flex-row justify-center w-full ">
           <Img
             src="images/img_uxdesignwithoutshadow_jpg.png"
             alt="uxdesignwithout"
@@ -958,7 +958,7 @@ Design Team Lead at VMware
 
 
 
-<div className="flex flex-col items-center justify-start w-full smw-[33%] p-9 shadow-xs rounded-lg">
+<div className="flex flex-col items-center justify-start w-full  p-9 shadow-xs rounded-lg">
   <Img src="images/img_div_61x287.svg" alt="div_one" className="h-[61px] w-full max-w-[287px]" />
   <Text as="p" className="w-[98%] mt-[18px] !text-gray-900_99">
     “Miro helps solve one of the major gaps in product design: how to manage tasks across product
@@ -979,7 +979,7 @@ Design Team Lead at VMware
 
 
 
-<div className="flex flex-col items-center justify-start w-full sm:w[33%] p-9 shadow-xs rounded-lg">
+<div className="flex flex-col items-center justify-start w-full  p-9 shadow-xs rounded-lg">
   <Img src="images/img_div_1.svg" alt="div_one" className="h-[61px] w-full max-w-[287px]" />
   <Text as="p" className="w-[99%] mt-[34px] !text-gray-900_99">
     “As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at
@@ -1027,10 +1027,10 @@ Design Team Lead at VMware
           <div className="flex flex-col flex-wrap justify-between items-start w-full">
     
             {/* Left Column: Company Information and Social Links */}
-            <div className="flex flex-col items-start justify-start w-full smw-[54%] gap-6">
+            <div className="flex flex-col items-start justify-start w-full  gap-6">
     
               {/* Company Information */}
-              <div className="flex flex-col items-start justify-start w-full smw-[63%]">
+              <div className="flex flex-col items-start justify-start w-full ">
                 <Heading size="lg" as="h5" className="!text-white-A700">
                   Scan. Detect. Remove.
                 </Heading>
@@ -1056,7 +1056,7 @@ Design Team Lead at VMware
                 {/* Additional Links */}
                 <div className="flex flex-row justify-start w-full sm:w[97%] mt-3 gap-[25px] py-1.5">
                   {/* Privacy Policy Link */}
-                  <div className="flex flex-row justify-start w[22%] mb-[5px]">
+                  <div className="flex flex-row justify-start  mb-[5px]">
                     <a href="#">
                       <Text size="xs" as="p" className="!text-white-A700 !font-inter underline">
                         Privacy Policy
@@ -1065,7 +1065,7 @@ Design Team Lead at VMware
                   </div>
     
                   {/* Terms of Service Link */}
-                  <div className="flex flex-row justify-start w[27%]">
+                  <div className="flex flex-row justify-start ">
                     <a href="#">
                       <Text size="xs" as="p" className="!text-white-A700 !font-inter underline">
                         Terms of Service
@@ -1089,7 +1089,7 @@ Design Team Lead at VMware
               </div>
     
               {/* Right Column: Miro Information */}
-              <div className="flex flex-col items-start justify-start w-full smw-[34%] gap-[60px]">
+              <div className="flex flex-col items-start justify-start w-full  gap-[60px]">
                 <Heading size="2xl" as="h2" className="pt-px pb-[26px] pr-[35px] !text-white-A700 border-white-A700 border-b border-solid">
                   Miro.
                 </Heading>
@@ -1132,7 +1132,7 @@ Design Team Lead at VMware
             </div>
     
             {/* Newsletter Subscription Section */}
-            <div className="h[232px] w-[full] smw-[436px] bg-orange-300 relative rounded-[42px]">
+            <div className="h[232px] w-[full]  bg-orange-300 relative rounded-[42px]">
               {/* Rest of the code remains unchanged */}
             </div>
           </div>
